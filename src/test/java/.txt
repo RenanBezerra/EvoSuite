@@ -1,0 +1,8 @@
+para rodar evo suite 
+1° mvn package
+2° mvn evosuite:clean
+3° mvn evosuite:generate
+4° mvn evosuite:export
+
+depois limpar os importes dentro das classses 
+depois na classe to test mudar de true para false o separateClassLoader para passar na cobertura
